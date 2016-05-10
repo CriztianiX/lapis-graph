@@ -16,5 +16,19 @@ return {
     db.query("INSERT INTO users(name) VALUES('Jose')")
     db.query("INSERT INTO users(name) VALUES('Cristian')")
     db.query("INSERT INTO users(name) VALUES('Eduardo')")
-  end
+  end,
+  [1462975524] = function()
+    schema.create_table("posts", {
+      { "id", types.serial },
+      { "title", types.text },
+      { "user_id", types.integer },
+
+      "PRIMARY KEY (id)"
+    })
+    db.query("INSERT INTO posts(user_id,title) VALUES(1, 'Title 1')")
+    db.query("INSERT INTO posts(user_id,title) VALUES(2, 'Title 2')")
+    db.query("INSERT INTO posts(user_id,title) VALUES(3, 'Title 3')")
+    db.query("INSERT INTO posts(user_id,title) VALUES(4, 'Title 4')")
+    db.query("INSERT INTO posts(user_id,title) VALUES(1, 'Title 5')")
+  end,
 }

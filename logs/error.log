@@ -1,0 +1,3 @@
+2016/05/10 04:05:00 [alert] 13799#0: lua_code_cache is off; this will hurt performance in /home/osboxes/lapis-graph/nginx.conf.compiled:16
+2016/05/10 04:06:09 [alert] 13844#0: lua_code_cache is off; this will hurt performance in /home/osboxes/lapis-graph/nginx.conf.compiled:16
+2016/05/10 04:06:21 [alert] 13860#0: lua_code_cache is off; this will hurt performance in /home/osboxes/lapis-graph/nginx.conf.compiled:16
