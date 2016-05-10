@@ -1,13 +1,14 @@
 #!/bin/bash
 
-curl -XPOST 127.0.0.1:8080 -H "Content-Type: application/json" -d '
+curl -XPOST 127.0.0.1:9900 -H "Content-Type: application/json" -d '
 {
+  "operation_name": "getUser",
 	"arguments" : {
 	 "id" : 2
         },
 	"query" : "query getUser($id: ID) {
-  	  person(id: $id) {
-    	    id
+  	  user(id: $id) {
+    	    id, name
   	  }
 	 }"
 }'

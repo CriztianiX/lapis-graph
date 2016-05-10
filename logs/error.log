@@ -1,7 +1,0 @@
-2016/05/09 20:05:40 [alert] 1831#0: lua_code_cache is off; this will hurt performance in /home/criztian/lapis-graph/nginx.conf.compiled:16
-2016/05/09 20:25:59 [alert] 2235#0: lua_code_cache is off; this will hurt performance in /home/criztian/lapis-graph/nginx.conf.compiled:16
-2016/05/09 21:02:10 [alert] 2634#0: lua_code_cache is off; this will hurt performance in /home/criztian/lapis-graph/nginx.conf.compiled:16
-2016/05/09 21:02:10 [emerg] 2634#0: invalid number of arguments in "set" directive in /home/criztian/lapis-graph/nginx.conf.compiled:20
-2016/05/09 21:03:32 [alert] 2659#0: lua_code_cache is off; this will hurt performance in /home/criztian/lapis-graph/nginx.conf.compiled:16
-2016/05/09 21:06:10 [alert] 2697#0: lua_code_cache is off; this will hurt performance in /home/criztian/lapis-graph/nginx.conf.compiled:16
-2016/05/09 21:15:23 [alert] 2721#0: lua_code_cache is off; this will hurt performance in /home/criztian/lapis-graph/nginx.conf.compiled:16
